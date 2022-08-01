@@ -12,12 +12,15 @@
 
 ### Vmware
 
-[虛擬機下載](https://drive.google.com/file/d/15pzjHaCGTkVl2LKIlygEYrH_krshfXPV/view?usp=sharing)
+[虛擬機下載](https://drive.google.com/drive/folders/1LBmr6xDJ-u_DqRpzv2hRH0HRg9yyY5lx?usp=sharing)
 
 Import 我預先製作的虛擬機
 打開Vmware，左上角有個File，點開再點Open，選擇Example.ovf
 名字可以隨便取，然後對新增
 點Power on this virtual machine就能打開
+
+去查hosts的檔案位置，然後用Notepad++編輯hosts
+加上一條10.0.0.254 www.ace.project
 
 ### Node.js
 打開cmd輸入
