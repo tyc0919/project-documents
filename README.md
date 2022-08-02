@@ -5,6 +5,8 @@
 
 [筆記](https://hackmd.io/@m7FAYRfQTyesN05dgdeZEQ/r1LPP44ic)
 
+[Vue 基礎教學](https://hackmd.io/@m7FAYRfQTyesN05dgdeZEQ/rylrDdI65)
+
 套件、軟體安裝
 - Vmware 
 - Node.js
