@@ -18,11 +18,23 @@
 
 Import 我預先製作的虛擬機
 打開Vmware，左上角有個File，點開再點Open，選擇Example.ovf
+:::info
+這邊要注意還有.iso跟.vmdk這兩個檔案要放在同個目錄裡面!
+:::
+
 名字可以隨便取，然後對新增
 點Power on this virtual machine就能打開
 
 去查hosts的檔案位置，然後用Notepad++編輯hosts
-加上一條10.0.0.254 www.ace.project
+加上:
+```
+10.0.0.254 www.ace.project
+10.0.0.254 app.ace.project
+```
+然後到Virtual Machine Settings將虛擬機的Network Adaptor 2右邊的選項切換成Custom並從下拉式選單選取VMnet1(Host-only)
+
+**最後直接關閉防火牆 or 到"具有進階安全性的Windows Defender防火牆"新增規則，允許ICMP、TCP 5173、 TCP 8000、 TCP 80這幾個協定跟port通過**
+
 
 ### Node.js
 打開cmd輸入
