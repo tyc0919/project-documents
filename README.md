@@ -92,6 +92,6 @@ yarn dev --host
 3. 打開瀏覽器無痕，輸入http://www.ace.project測試能不能到前端畫面
 
 
-## 後端API可用方法
-目前除了檢查登入資訊以外都沒有
+## API文件
+[連結](https://hackmd.io/@m7FAYRfQTyesN05dgdeZEQ/S1EjOVCpe)
  
